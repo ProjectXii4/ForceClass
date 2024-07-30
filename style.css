@@ -13,6 +13,23 @@ body {
     font-family: Arial, sans-serif;
 }
 
+
+.banner-card{
+    position: relative;
+}
+
+.banner text{
+    position: absolute;
+    top: 0%;
+    color: #fff;
+    padding: 10px;
+}
+
+
+
+
+
+
 /* Container */
 .container {
     width: 1200px;
@@ -86,9 +103,10 @@ header nav ul li a:hover {
     }
 }
 
+
 /* Hero Slider Styles */
 .hero {
-    position: relative;
+    position: center;
     height: 750px;
     overflow: hidden;
 }
@@ -113,6 +131,8 @@ header nav ul li a:hover {
 .slide:not(.active) {
     display: none;
 }
+
+
 
 .btn-primary {
     display: inline-block;
