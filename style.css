@@ -82,9 +82,23 @@ header nav ul li a {
     font-weight: bold;
 }
 
+/* Styles untuk navbar di header */
+header nav ul li a {
+    font-size: 18px; /* Atur ukuran font sesuai kebutuhan */
+}
+
+
 header nav ul li a:hover {
     text-decoration: underline;
 }
+
+/* Aturan untuk layar kecil */
+@media (max-width: 768px) {
+    header nav ul li a {
+        font-size: 12px;
+    }
+}
+
 
 /* Responsive Navbar */
 @media (max-width: 768px) {
